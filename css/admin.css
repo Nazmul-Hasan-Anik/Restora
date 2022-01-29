@@ -1,0 +1,112 @@
+/*
+Author: Anik
+*/
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center ;
+}
+/*css for menu*/
+.menu{
+  text-align: center ;
+  border-bottom: 1px solid grey;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #006266;
+}
+.menu ul li a:hover{
+  color: #EA2027;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu ul li{
+  display: inline;
+  padding: 1%;
+}
+/*css for main content*/
+.main-content{
+
+  background-color: #d2dae2;
+  padding: 2% 0;
+}
+.col-4{
+  width: 19%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+.clearfix{
+  float: none;
+  clear: both;
+}
+.success{
+  color: #2ed573;
+  font-weight: bold;
+}
+.btn-primary{
+  background-color: #0652DD;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 1%;
+}
+.btn-primary:hover{
+  background-color:#5758BB;
+}
+.btn-secondary{
+  background-color: #009432;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 1%;
+}
+.btn-secondary:hover{
+  background-color:#A3CB38;
+}
+.btn-danger{
+  background-color: #EA2027;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 1%;
+}
+.btn-danger:hover{
+  background-color:#ED4C67;
+}
+.table{
+  width: 100%;
+}
+
+.table tr th{
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+.table tr td{
+  padding: 1%;
+}
+.tbl30{
+  width: 30%;
+  padding:2%;
+}
+/*css for footer*/
+.footer-class{
+  text-align: center;
+}
+.footer{
+  background-color: #ff4757;
+  color: white;
+}
